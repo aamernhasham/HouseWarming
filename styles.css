@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body
+{
+
+	font-family: 'Open Sans', arial, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul
+{
+
+	list-style: none;
+}
+
+li
+
+{
+	display: inline-block;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header
+{
+	
+	background-color: #00FF7F;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	font-size: 1.25rem;
+	color: #ff4496;
+	line-height: 3rem;
+	margin-bottom: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+
+div[data-type="nav-header"]
+
+{
+	float:right;
+	clear:both;	
+}
+
+.container
+{
+	width:544px;
+	margin: 100px auto;
+}
+
+.main-image
+{
+	padding:0;
+	margin: 0;
+	height: 408px;
+	
+}
+.main-image img
+
+{
+  
+  border-radius: 40px 40px 0 0;
+  padding:0;
+  margin-bottom: 0;
+
+  
+}
+
+h1,h2
+{
+
+
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  
+
+}
+
+h1{
+
+	font-size: 2.5rem;
+}
+
+h2{
+	font-style: 2rem;
+}
+
+.pdetails{
+
+	background-color: #D49093;
+	width:100%;
+}
+
+
+@media screen and (max-width: 612px)
+{
+
+	div[data-type="nav-header"]
+	{
+		text-align: center;
+		clear:both;	
+		
+	}
+
+	.pdetails
+	{
+		background-color: #D49093;
+		width:544px;
+
+	}
+	.container{
+		width:100%;
+
+	}
+
+	
+
+}
