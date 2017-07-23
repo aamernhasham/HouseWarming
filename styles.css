@@ -89,7 +89,7 @@ div[data-type="nav-header"]
 {
 	padding:0;
 	margin: 0;
-	height: 408px;
+	line-height: 0;
 	
 }
 .main-image img
@@ -97,10 +97,9 @@ div[data-type="nav-header"]
 {
   
   border-radius: 40px 40px 0 0;
-  padding:0;
-  margin-bottom: 0;
-
-  
+  width:100%;
+  height:80%;
+ 
 }
 
 h1,h2
@@ -129,21 +128,19 @@ h2{
 	width:100%;
 }
 
+.map{
+	width:100%;
+	}
 
-@media screen and (max-width: 612px)
+@media screen and (max-width: 544px)
 {
 
-	div[data-type="nav-header"]
-	{
-		text-align: center;
-		clear:both;	
-		
-	}
 
 	.pdetails
 	{
 		background-color: #D49093;
-		width:544px;
+		width:100%;
+		
 
 	}
 	.container{
@@ -151,6 +148,9 @@ h2{
 
 	}
 
+	.map{
+		width:100%;
+	}
 	
 
 }
