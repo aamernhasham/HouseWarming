@@ -102,24 +102,24 @@ div[data-type="nav-header"]
  
 }
 
-h1,h2
+h1
 {
 
 
   font-family: 'Lobster', cursive;
   color: #e22f8f;
   text-align: center;
-  
+  font-size: 2.5rem;
 
 }
 
-h1{
-
-	font-size: 2.5rem;
-}
 
 h2{
-	font-style: 2rem;
+	
+	font-family: 'Lobster', cursive;
+    color: black;
+    text-align: center;
+	font-size: 1.5rem;
 }
 
 .pdetails{
@@ -141,6 +141,7 @@ h2{
 	{
 		background-color: #D49093;
 		width:100%;
+		text-align: center;
 		
 
 	}
